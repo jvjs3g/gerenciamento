@@ -6,7 +6,6 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
-
 @Entity('position')
 class Position {
   @PrimaryGeneratedColumn('uuid')
